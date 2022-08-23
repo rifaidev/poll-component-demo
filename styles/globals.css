@@ -1,0 +1,42 @@
+:root {
+  --spaceXXS: 2px;
+  --spaceXS: 4px;
+  --spaceS: 8px;
+  --spaceM: 12px;
+  --spaceL: 16px;
+  --spaceXL: 24px;
+  --spaceXXL: 32px;
+  --space3XL: 48px;
+  --space4XL: 68px;
+  --space5XL: 92px;
+  --space6XL: 122px;
+  --pollItemBackground: #dbe2e6;
+  --pollIndicatorPrimary: #30e5b2;
+  --pollIndicatorSecondary: #acb8ca;
+}
+
+@keyframes pollIndicatorFill {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
